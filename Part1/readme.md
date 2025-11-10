@@ -32,10 +32,9 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 
 
-Export your API key (example):
+Hardcode your  API key (example):
+api_key =" xnhebce"
 
-export GEMINI_API_KEY="your_api_key_here"  # Linux / macOS
-setx GEMINI_API_KEY "your_api_key_here"    # Windows
 
 
 Start the backend server:
@@ -51,7 +50,7 @@ streamlit run frontend.py
 
 Open the Streamlit UI in your browser.
 
-Log in or register a new account.
+Log as a tester account.
 
 Enter the GitHub repository URL you want to analyze.
 
