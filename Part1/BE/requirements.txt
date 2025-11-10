@@ -1,3 +1,4 @@
-python 
-gitpython
+ jaclang 1.8 +
 byllm
+-jaseci 
+python 3.8+

@@ -3,8 +3,9 @@ import requests
 
 BACKEND_URL = "http://localhost:8000"
 
+
 st.set_page_config(page_title="RepoDocAgent", page_icon="📘", layout="wide")
-st.title("🤖 RepoDocAgent – AI-Powered Repository Documentation")
+st.title("🤖 RepoDocAgent AI-Powered Repository Documentation")
 
 # --- Authentication ---
 if "token" not in st.session_state:
@@ -103,7 +104,7 @@ else:
                                         st.write("No individual code analyses available.")
 
                                 with st.expander("🧾 Documentation Preview", expanded=True):
-                                    doc_preview = report.get("docs_preview", "")
+                                    doc_preview = report.get("doc_preview", "")
                                     if doc_preview:
                                         st.text_area("Generated Documentation", doc_preview, height=400)
                                         st.download_button(

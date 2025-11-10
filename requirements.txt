@@ -1,6 +1,0 @@
-GitPython 
-networkx 
-graphviz
-equests 
-  streamlit pygments
-  r
