@@ -12,7 +12,7 @@ import os;
 
 # ADD YOU api_key to the "GEMINI_API_KEY" environment variable before running.
 
-glob llm = Model(model_name="gemini/gemini-2.5-flash",api_key="AIzaSyBR53VK_So_QocmSgM-j653f6ldj6a8I0U", temperature=0.2, max_tokens=4000);
+glob llm = Model(model_name="gemini/gemini-2.5-flash",api_key="", temperature=0.2, max_tokens=4000);
 
 # ==== OBJECTS ====
 obj RepoInfo {
