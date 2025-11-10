@@ -25,15 +25,14 @@ Streamlit frontend for easy interaction.
 ```bash
 git clone https://github.com/beche-ty/jac_assignment2
 cd codegenius
-
-
+```
+```bash 
 ##Set up Python environment:
-
 python -m venv venv
 source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-
+```
 
 
 ##Hardcode your  API key (example):
@@ -46,11 +45,10 @@ api_key =" xnhebce"
 jac serve repo_db.jac
 
 
-
 ##Run the Streamlit frontend:
 streamlit run frontend.py
 
-
+```
 ## 🚀 Usage
 
 Open the Streamlit UI in your browser.
