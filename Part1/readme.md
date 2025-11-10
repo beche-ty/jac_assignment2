@@ -34,6 +34,7 @@ source venv/bin/activate  # Linux / macOS
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 
+#!/bin/bash
 
 ##Hardcode your  API key (example):
 api_key =" xnhebce"
@@ -41,13 +42,15 @@ api_key =" xnhebce"
 
 
 ##Start the backend server:
-
+``` bash
 jac serve repo_db.jac
+#!/bin/bash
 
 
 ##Run the Streamlit frontend:
-
+```bash
 streamlit run frontend.py
+#!/bin/bash
 
 ## 🚀 Usage
 
